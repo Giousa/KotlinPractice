@@ -17,4 +17,8 @@ fun main(args: Array<String>){
     args.map {
         println(it)
     }
+
+    println("-----------")
+
+    args.map(::println)
 }
