@@ -20,5 +20,6 @@ fun main(args: Array<String>){
 
     println("-----------")
 
+    //函数引用,前面加两个::
     args.map(::println)
 }
